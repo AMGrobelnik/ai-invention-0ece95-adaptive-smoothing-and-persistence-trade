@@ -1,0 +1,14 @@
+[project]
+name = "gen-art-evaluation-1"
+version = "0.1.0"
+description = "Evaluation artifact for moving average vs naive forecast"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==2.5.1",
+    "scipy==1.18.0",
+    "pandas==3.0.3",
+    "matplotlib==3.11.1",
+    "scikit-learn==1.9.0",
+    "requests==2.34.2",
+    "pydantic==2.13.4"
+]

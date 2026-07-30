@@ -1,0 +1,123 @@
+{
+  "metrics_agg": {
+    "ma_mse": 1.3442461017115426,
+    "ma_rmse": 1.1594162762836921,
+    "ma_mae": 0.9180323462836193,
+    "naive_mse": 2.008410256458957,
+    "naive_rmse": 1.4171839176546412,
+    "naive_mae": 1.1268167224016503,
+    "mse_improvement": 0.6641641547474146,
+    "mae_improvement": 0.20878437611803102,
+    "paired_t_statistic": -11.476536422650119,
+    "paired_t_pvalue": 3.7145697113730516e-29,
+    "wilcoxon_statistic": 305278.0,
+    "wilcoxon_pvalue": 7.166315581924752e-26
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_time_series",
+      "examples": [
+        {
+          "input": "run_0_step_3",
+          "output": "1.8230298564080254",
+          "metadata_run": 0,
+          "metadata_step": 3,
+          "predict_ma": 0.43537946331358013,
+          "predict_naive": 0.8476885381006924,
+          "eval_ma_mse": 1.9255736134551684,
+          "eval_naive_mse": 0.9512906871974862
+        },
+        {
+          "input": "run_0_step_4",
+          "output": "0.16584662527666405",
+          "metadata_run": 0,
+          "metadata_step": 4,
+          "predict_ma": 0.8774846977791778,
+          "predict_naive": 1.8230298564080254,
+          "eval_ma_mse": 0.506428746235093,
+          "eval_naive_mse": 2.7462562615429795
+        },
+        {
+          "input": "run_0_step_5",
+          "output": "0.2658630430508194",
+          "metadata_run": 0,
+          "metadata_step": 5,
+          "predict_ma": 0.945521673261794,
+          "predict_naive": 0.16584662527666405,
+          "eval_ma_mse": 0.46193585362025835,
+          "eval_naive_mse": 0.010003283824374383
+        },
+        {
+          "input": "run_0_step_6",
+          "output": "2.1792128155073915",
+          "metadata_run": 0,
+          "metadata_step": 6,
+          "predict_ma": 0.7515798415785029,
+          "predict_naive": 0.2658630430508194,
+          "eval_ma_mse": 2.0381359082490427,
+          "eval_naive_mse": 3.660907351759617
+        },
+        {
+          "input": "run_0_step_7",
+          "output": "1.4674347291529088",
+          "metadata_run": 0,
+          "metadata_step": 7,
+          "predict_ma": 0.8703074946116249,
+          "predict_naive": 2.1792128155073915,
+          "eval_ma_mse": 0.3565609342309215,
+          "eval_naive_mse": 0.5066280442144494
+        },
+        {
+          "input": "run_0_step_8",
+          "output": "0.33052561406504793",
+          "metadata_run": 0,
+          "metadata_step": 8,
+          "predict_ma": 1.3041701959037066,
+          "predict_naive": 1.4674347291529088,
+          "eval_ma_mse": 0.9479837717437767,
+          "eval_naive_mse": 1.292562335969863
+        },
+        {
+          "input": "run_0_step_9",
+          "output": "1.4425600435859647",
+          "metadata_run": 0,
+          "metadata_step": 9,
+          "predict_ma": 1.325724386241783,
+          "predict_naive": 0.33052561406504793,
+          "eval_ma_mse": 0.013650570827047057,
+          "eval_naive_mse": 1.2366205724399109
+        },
+        {
+          "input": "run_0_step_10",
+          "output": "0.5365823071875377",
+          "metadata_run": 0,
+          "metadata_step": 10,
+          "predict_ma": 1.0801734622679737,
+          "predict_naive": 1.4425600435859647,
+          "eval_ma_mse": 0.2954913438816826,
+          "eval_naive_mse": 0.8207956588496176
+        },
+        {
+          "input": "run_0_step_11",
+          "output": "0.6342702464297432",
+          "metadata_run": 0,
+          "metadata_step": 11,
+          "predict_ma": 0.7698893216128502,
+          "predict_naive": 0.5365823071875377,
+          "eval_ma_mse": 0.01839253355352123,
+          "eval_naive_mse": 0.009542933473388818
+        },
+        {
+          "input": "run_0_step_12",
+          "output": "1.4419622715660343",
+          "metadata_run": 0,
+          "metadata_step": 12,
+          "predict_ma": 0.8711375324010818,
+          "predict_naive": 0.6342702464297432,
+          "eval_ma_mse": 0.325840882842736,
+          "eval_naive_mse": 0.6523664074687632
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[project]
+name = "gen_art_dataset_1"
+version = "0.1.0"
+description = "Synthetic Time Series Dataset Generator for forecasting comparison"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==2.5.1",
+    "pandas==3.0.3",
+    "scikit-learn==1.9.0",
+    "scipy==1.18.0",
+    "matplotlib==3.11.1",
+    "requests==2.34.2",
+    "pydantic==2.13.4"
+]

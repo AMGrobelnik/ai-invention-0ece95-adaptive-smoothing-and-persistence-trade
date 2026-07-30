@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "ma_mse": { "type": "number" },
+        "ma_rmse": { "type": "number" },
+        "ma_mae": { "type": "number" },
+        "naive_mse": { "type": "number" },
+        "naive_rmse": { "type": "number" },
+        "naive_mae": { "type": "number" },
+        "mse_improvement": { "type": "number" },
+        "mae_improvement": { "type": "number" }
+      },
+      "required": ["ma_mse", "naive_mse", "mse_improvement"]
+    },
+    "statistical_tests": {
+      "type": "object",
+      "properties": {
+        "paired_t_statistic": { "type": "number" },
+        "paired_t_pvalue": { "type": "number" },
+        "wilcoxon_statistic": { "type": "number" },
+        "wilcoxon_pvalue": { "type": "number" }
+      },
+      "required": ["paired_t_pvalue", "wilcoxon_pvalue"]
+    }
+  },
+  "required": ["metrics", "statistical_tests"]
+}

@@ -1,0 +1,32 @@
+{
+  "metrics_agg": {
+    "mse_improvement": 0.6641641547474146
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_time_series",
+      "examples": [
+        {
+          "input": "run_0_step_3",
+          "output": "1.8230298564080254",
+          "metadata_run": 0,
+          "metadata_step": 3,
+          "predict_ma": 0.43537946331358013,
+          "predict_naive": 0.8476885381006924,
+          "eval_ma_mse": 1.9255736134551684,
+          "eval_naive_mse": 0.9512906871974862
+        },
+        {
+          "input": "run_0_step_4",
+          "output": "0.16584662527666405",
+          "metadata_run": 0,
+          "metadata_step": 4,
+          "predict_ma": 0.8774846977791778,
+          "predict_naive": 1.8230298564080254,
+          "eval_ma_mse": 0.506428746235093,
+          "eval_naive_mse": 2.7462562615429795
+        }
+      ]
+    }
+  ]
+}
